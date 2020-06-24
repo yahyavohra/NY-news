@@ -1,0 +1,103 @@
+.logo img {
+  width: 50px;
+}
+.logo h2 {
+  display: inline-block;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  padding-left: 7px;
+  color: #fff;
+}
+.login-btn {
+  background-color: #fff;
+  color: #343a40;
+  border-color: transparent;
+}
+.login-btn:hover {
+  background-color: #03a9f4;
+}
+.login-text {
+  color: #fff;
+  padding-left: 10px;
+}
+.login-out {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-decoration: underline;
+  vertical-align: middle;
+}
+.nav-user-profile {
+  width: 40px;
+}
+.next-steps .fa-link {
+  margin-right: 5px;
+}
+
+/* Fix for use only flexbox in content area */
+.next-steps .row {
+  margin-bottom: 0;
+}
+
+.next-steps .col-md-5 {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .next-steps .col-md-5 {
+      margin-bottom: 0;
+  }
+}
+
+.spinner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.truncate-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 20px;
+  height: 82px;
+  -webkit-line-clamp: 4;
+}
+.card-title {
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 22px;
+  max-height: 47px;
+  -webkit-line-clamp: 2;
+}
+.view-btn {
+  padding: 0px;
+  margin: 0px;
+  vertical-align: baseline;
+  padding-left: 4px;
+  font-weight: 500;
+}
+.main-div {
+  position: relative;
+}
+@media (min-width: 1300px) {
+  .container {
+      max-width: 1260px;
+  }
+}
+@media (max-width: 600px) {
+  .navbar-nav {
+   padding-top: 10px;
+   margin-left: auto;
+   padding-bottom: 10px;
+  }
+}
